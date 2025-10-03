@@ -1,1 +1,128 @@
-/* Your styles here */
+/* INIZIO BODY */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+span a {
+  text-decoration: none;
+  color: #0091aa;
+  font-size: 17px;
+  padding-left: 10px;
+}
+/* FINE BODY */
+/* INIZIO HEADER */
+header {
+  display: inline-block;
+  width: 100%;
+  background-color: #222f3f;
+  img {
+    align-items: left;
+    width: 120px;
+    margin: 6px;
+    padding-left: 30px;
+  }
+}
+/* BARRA DI NAVIGAZIONE */
+ul a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.863);
+}
+ul a:hover {
+  color: white;
+}
+/* NAV */
+nav {
+  background-color: #364759;
+}
+nav ul li {
+  display: inline-block;
+  margin: 5px;
+}
+/* FINE HEADER */
+/* INIZIO MAIN */
+main {
+  margin: 30px;
+}
+/* FINESTRA ARANCIONE */
+.orange {
+  background-color: #f56600;
+  color: white;
+  text-align: center;
+  margin: 40px 0;
+  padding: 15px;
+}
+#orangetext a {
+  text-decoration: none;
+  color: white;
+}
+/* CHIUSA FINESTRA ARANCIONE */
+/* FINESTRA VERDE */
+.green {
+  background-image: url("../images/bg-image.png");
+  background-size: contain;
+  color: white;
+  text-align: center;
+  padding: 90px 0;
+  margin: 40px 0;
+}
+.green h3 {
+  font-size: 30px;
+}
+/* CHIUSA FINESTRA VERDE */
+/* IMMAGINI PICCOLE */
+.fourimages {
+  text-align: center;
+  background-color: white;
+  margin: 40px 0;
+}
+.fourimages h4 {
+  text-align: left;
+  font-size: 25px;
+  padding-top: 35px;
+  margin-left: 55px;
+}
+.littleimg {
+  display: inline-block;
+  margin: 30px 40px;
+}
+.littleimg img {
+  text-align: center;
+  object-fit: cover;
+  border-radius: 20px;
+  width: 250px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* IMMAGINI GRANDI */
+.doublebigimg {
+  text-align: center;
+  font-size: 25px;
+  margin: 60px 0;
+}
+.doublebigimg img {
+  object-fit: cover;
+  width: 100%;
+}
+/* FINE MAIN */
+/* INZIO FOOTER */
+footer {
+  background-color: #222f3f;
+  color: white;
+  text-align: center;
+  padding: 0px 0;
+  img {
+    width: 140px;
+    margin: 35px 0 50px 0;
+  }
+}
+.button {
+  background-color: #364759;
+  padding: 10px 0;
+}
+.button a {
+  color: rgba(255, 255, 255, 0.863);
+}
+.button a:hover {
+  color: white;
+}
+/* FINE FOOTER */
