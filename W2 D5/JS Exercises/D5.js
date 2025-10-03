@@ -252,7 +252,7 @@ console.log(positionsArray);
 // DINAMICO
 for (let i = 0; i < charactersArray.lenght; i++) {
   switch (charactersArray[i]) {
-    case charactersArray.includes(charactersArray[i]):
+    case alphabet.includes(charactersArray[i]):
       positionsArray.push(positionArray.indexOf(charactersArray[i]));
   }
 }
