@@ -159,82 +159,100 @@ const alphabet = [
   "z",
 ];
 
-let characterPosition = [];
+const positionsArray = [];
 
-for (let i = 0; i < charactersArray; i++) {
+for (let i = 0; i < charactersArray.length; i++) {
   switch (charactersArray[i]) {
     case "a":
-      characterPosition.push(1);
+      positionsArray.push(1);
       break;
     case "b":
-      characterPosition.push(2);
+      positionsArray.push(2);
       break;
     case "c":
-      characterPosition.push(3);
+      positionsArray.push(3);
       break;
     case "d":
-      characterPosition.push(4);
+      positionsArray.push(4);
       break;
     case "e":
-      characterPosition.push(5);
+      positionsArray.push(5);
       break;
     case "f":
-      characterPosition.push(6);
+      positionsArray.push(6);
       break;
     case "g":
-      characterPosition.push(7);
+      positionsArray.push(7);
       break;
     case "h":
-      characterPosition.push(8);
+      positionsArray.push(8);
       break;
     case "i":
-      characterPosition.push(9);
+      positionsArray.push(9);
+      break;
+    case "j":
+      positionsArray.push(10);
+      break;
+    case "k":
+      positionsArray.push(11);
       break;
     case "l":
-      characterPosition.push(10);
+      positionsArray.push(12);
       break;
     case "m":
-      characterPosition.push(11);
+      positionsArray.push(13);
       break;
     case "n":
-      characterPosition.push(12);
+      positionsArray.push(14);
       break;
     case "o":
-      characterPosition.push(13);
+      positionsArray.push(15);
       break;
     case "p":
-      characterPosition.push(14);
+      positionsArray.push(16);
       break;
     case "q":
-      characterPosition.push(15);
+      positionsArray.push(17);
       break;
     case "r":
-      characterPosition.push(16);
+      positionsArray.push(18);
       break;
     case "s":
-      characterPosition.push(17);
+      positionsArray.push(19);
       break;
     case "t":
-      characterPosition.push(18);
+      positionsArray.push(20);
       break;
     case "u":
-      characterPosition.push(19);
+      positionsArray.push(21);
       break;
     case "v":
-      characterPosition.push(20);
+      positionsArray.push(22);
       break;
-    case "!z":
-      characterPosition.push(21);
+    case "w":
+      positionsArray.push(23);
+      break;
+    case "x":
+      positionsArray.push(24);
+      break;
+    case "y":
+      positionsArray.push(25);
+      break;
+    case "z":
+      positionsArray.push(26);
       break;
     default:
+      positionsArray.push(0);
   }
 }
 
-console.log(characterPosition);
+console.log(positionsArray);
 
-// switch (charactersArray){
-//   case for (let i = 0; i < alphabet; i++){
-// alphabet[i]}
-//   }
+for (let i = 0; i < charactersArray.lenght; i++) {
+  switch (charactersArray[i]) {
+    case charactersArray.includes(charactersArray[i]):
+      positionsArray.push(positionArray.indexOf(charactersArray[i]));
+  }
+}
 
-// }
+console.log(positionsArray);
