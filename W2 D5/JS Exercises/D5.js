@@ -161,6 +161,7 @@ const alphabet = [
 
 const positionsArray = [];
 
+// STATICO
 for (let i = 0; i < charactersArray.length; i++) {
   switch (charactersArray[i]) {
     case "a":
@@ -248,6 +249,7 @@ for (let i = 0; i < charactersArray.length; i++) {
 
 console.log(positionsArray);
 
+// DINAMICO
 for (let i = 0; i < charactersArray.lenght; i++) {
   switch (charactersArray[i]) {
     case charactersArray.includes(charactersArray[i]):
